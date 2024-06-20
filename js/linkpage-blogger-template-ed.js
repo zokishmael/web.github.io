@@ -30,77 +30,7 @@ function _0x1122(_0x5f0a10, _0x7ca50b) {
 const $license_item = _0x3f9648(0x1fd);
 license();
 
-function license() {
-    var _0x48f346 = _0x3f9648;
 
-    function _0x2e06b5(_0xa4c2b9) {
-        var _0x3b89ae = _0x1122;
-
-        function _0x13068c(_0x35cb76) {
-            try {
-                return btoa(atob(_0x35cb76)) == _0x35cb76;
-            } catch (_0x4d42b1) {
-                return ![];
-            }
-        }
-        if (_0x13068c(_0xa4c2b9)) {
-            _0xa4c2b9 = atob(_0xa4c2b9), _0xa4c2b9 = _0xa4c2b9[_0x3b89ae(0x1eb)](_0x3b89ae(0x1e7), '.'), _0xa4c2b9 = _0xa4c2b9[_0x3b89ae(0x1eb)]('YY', '-'), _0xa4c2b9 = _0xa4c2b9['replaceAll']('O5', 'a'), _0xa4c2b9 = _0xa4c2b9[_0x3b89ae(0x1eb)]('E4', 'i'), _0xa4c2b9 = _0xa4c2b9['replaceAll']('U3', 'u'), _0xa4c2b9 = _0xa4c2b9[_0x3b89ae(0x1eb)]('I2', 'e'), _0xa4c2b9 = _0xa4c2b9['replaceAll']('A1', 'o');
-
-            function _0x145659(_0x3a808c) {
-                var _0x3b4b9 = _0x3b89ae;
-                const _0x368fb4 = _0x3a808c[_0x3b4b9(0x1f6)](''),
-                    _0x5d6b45 = _0x368fb4['reverse'](),
-                    _0xf04331 = _0x5d6b45['join']('');
-                return _0xf04331;
-            }
-            return _0xa4c2b9 = _0x145659(_0xa4c2b9), _0xa4c2b9;
-        } else return '';
-    }
-
-    function _0x2d5e3a(_0x197e1a) {
-        var _0x4249e6 = _0x1122,
-            _0x22ffb0 = _0x4249e6(0x1fe) + _0x197e1a + '</p>                    <br>                    <hr style=\"border:0;border-top:1px solid #ddd;\">                    <br>                    <a href=\"https://lapak.kangrian.net/' + $license_item + _0x4249e6(0x1df);
-        return document[_0x4249e6(0x1c2)][_0x4249e6(0x1f1)] = _0x22ffb0;
-    }
-    if (typeof $license_key === _0x48f346(0x200)) _0x2d5e3a('Dilarang menghapus variable <b>$license_key</b>..');
-    else {
-        if (typeof $license_item === _0x48f346(0x200)) _0x2d5e3a('Dilarang menghapus variable <b>$license_item</b>..');
-        else {
-            if (location['hostname'][_0x48f346(0x1fb)]('localhost') != -0x1 || location[_0x48f346(0x1ff)]['indexOf'](_0x48f346(0x1ca)) != -0x1 || location[_0x48f346(0x1ff)][_0x48f346(0x1fb)](_0x48f346(0x1c7)) != -0x1) {
-                console['log']('Developed by. https://kangrian.net ( Free / Trial Version )');
-                var _0x1ab2da = document[_0x48f346(0x1d7)]('copyright');
-                if (_0x1ab2da === null) _0x2d5e3a(_0x48f346(0x1cd));
-                else {
-                    var _0x2576df = new Date()[_0x48f346(0x1ea)]();
-                    _0x1ab2da['innerHTML'] = '&#0169;' + _0x2576df + _0x48f346(0x1f0) + $license_item + _0x48f346(0x1d9), _0x1ab2da[_0x48f346(0x1e9)](_0x48f346(0x1e1), 'display:inline-block!important;opacity:1!important;position:static!important;visibility:visible!important;text-indent:0px!important;color:currentColor!important');
-                }
-            } else {
-                if ($license_key === '') _0x2d5e3a(_0x48f346(0x1c8));
-                else {
-                    const _0x58ef81 = _0x2e06b5($license_key)[_0x48f346(0x1f6)]('|')[0x0],
-                        _0x9b9e21 = _0x2e06b5($license_key)['split']('|')[0x1];
-                    if (_0x58ef81 == '' || _0x58ef81 == undefined) _0x2d5e3a(_0x48f346(0x1e8));
-                    else {
-                        if (location[_0x48f346(0x1ff)]['indexOf'](_0x58ef81) == -0x1) _0x2d5e3a('<b>Kode Lisensi</b> hanya bisa digunakan pada website dengan domain : <b>' + _0x58ef81 + _0x48f346(0x1ce));
-                        else {
-                            if (_0x9b9e21 != $license_item) {
-                                function _0x3c8af2(_0x2f1ee8) {
-                                    var _0xe16a37 = _0x48f346;
-                                    _0x2f1ee8 = _0x2f1ee8[_0xe16a37(0x1f6)](' ');
-                                    for (var _0x269596 = 0x0; _0x269596 < _0x2f1ee8['length']; _0x269596++) {
-                                        _0x2f1ee8[_0x269596] = _0x2f1ee8[_0x269596][_0xe16a37(0x1f7)](0x0)[_0xe16a37(0x1d5)]() + _0x2f1ee8[_0x269596][_0xe16a37(0x1d6)](0x1);
-                                    }
-                                    return _0x2f1ee8 = _0x2f1ee8['join'](' '), _0x2f1ee8;
-                                }
-                                _0x2d5e3a(_0x48f346(0x1c4) + _0x3c8af2($license_item[_0x48f346(0x1eb)]('-', ' ')) + '</b><br><br><small>#ERR_ITEM</small>');
-                            } else console['log']('Developed by. https://kangrian.net ( Premium Version )');
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
 window[_0x3f9648(0x1cf)] = function () {
     etc(), custom_js();
 };
